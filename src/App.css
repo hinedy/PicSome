@@ -13,20 +13,26 @@ html, body {
   padding: 0;
   color: var(--accent);
   background-color: var(--wheat);
+
 }
 
 /* --- HEADER --- */
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
   background-color: var(--accent);
   color: wheat;
-  padding: 25px 40px;
+  padding: 25px 0px;
   border: 10px solid var(--accent);
   border-radius: 0 0px 5px 5px ;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  max-width: 1000px;
+  width: 80%;
+  margin: auto;
+}
 .title {
   margin: 0;
   font-size: 2rem;
@@ -48,6 +54,11 @@ a:active {
 }
 
 /* --- PHOTOS HOME PAGE --- */
+main{
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+}
 
 main.photos {
   padding: 30px;
